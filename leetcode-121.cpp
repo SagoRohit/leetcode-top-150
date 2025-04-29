@@ -12,7 +12,6 @@ public:
         for(int p: prices){
             if(buy>p){
                 buy=p;
-                continue;
             }else{
                 profit = max(profit, p-buy);
             }
